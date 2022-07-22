@@ -54,6 +54,7 @@ const recycledItems = [
     }
 ];
 
+// This Gives the user the ability to get, post, delete and put to the recycled query 
 recycledItemsRouter 
     .get('/', (req, res) => {
         res.send(recycledItems)
