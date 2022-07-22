@@ -3,8 +3,8 @@ const express = require("express");
 const app = express();
 const morgan = require('morgan');
 const cors = require('cors');
-
-const PORT = 5000;
+// constructing the PORT to use
+const PORT = 5000;// will run on PORT 5000
 const recycledItemsRouter = require('./routes/recycledItemsRouter');
 
 // Middleware.
